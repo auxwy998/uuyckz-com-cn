@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UU远程控制 - 最新资讯与技术文章</title>
+    <link>https://uuyckz.com.cn</link>
+    <description>网易UU远程控制官方资讯，涵盖远程办公、远程游戏、远程协助等场景的技术教程与深度解读</description>
+    <language>zh-CN</language>
+    <atom:link href="https://uuyckz.com.cn/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sun, 15 Jun 2025 08:00:00 +0800</lastBuildDate>
+    <item><title>UU远程控制新手入门：从下载安装到首次远控全流程</title><link>https://uuyckz.com.cn/article-1.html</link><description>从零开始掌握UU远程控制，详细图文教程覆盖下载、安装、账号注册到首次远程连接的完整流程</description><pubDate>Sun, 15 Jun 2025 08:00:00 +0800</pubDate></item>
+    <item><title>真4K 144帧技术解析：网易UU远程画质背后的秘密</title><link>https://uuyckz.com.cn/article-2.html</link><description>深入解析UU远程控制实现真4K分辨率与144帧率的技术原理，包括编解码优化与网络传输策略</description><pubDate>Fri, 13 Jun 2025 08:00:00 +0800</pubDate></item>
+    <item><title>远程办公效率翻倍：UU远程多屏协作与文件传输实战</title><link>https://uuyckz.com.cn/article-3.html</link><description>实战分享如何利用UU远程的多屏控制和无限文件传输功能，打造高效远程办公工作流</description><pubDate>Wed, 11 Jun 2025 08:00:00 +0800</pubDate></item>
+    <item><title>DTLS加密与AES防护：UU远程安全架构深度解读</title><link>https://uuyckz.com.cn/article-4.html</link><description>从协议层面解读UU远程的DTLS+AES双重加密机制，了解端到端安全如何保障远程会话</description><pubDate>Mon, 09 Jun 2025 08:00:00 +0800</pubDate></item>
+    <item><title>游戏串流黑科技：手机畅玩3A大作的延迟优化方案</title><link>https://uuyckz.com.cn/article-5.html</link><description>揭秘UU远程游戏串流的低延迟技术，包括高速专网直连、帧率自适应和游戏云键盘方案</description><pubDate>Sat, 07 Jun 2025 08:00:00 +0800</pubDate></item>
+    <item><title>远程开机与无人值守：UU远程企业级部署指南</title><link>https://uuyckz.com.cn/article-6.html</link><description>企业IT管理员必读：如何利用UU远程实现批量远程开机、无人值守运维与多设备集中管理</description><pubDate>Thu, 05 Jun 2025 08:00:00 +0800</pubDate></item>
+    <item><title>UU远程 vs ToDesk vs 向日葵：三大远控软件横评</title><link>https://uuyckz.com.cn/article-7.html</link><description>全面对比UU远程、ToDesk、向日葵三款主流远程控制软件的画质、延迟、安全性与功能差异</description><pubDate>Tue, 03 Jun 2025 08:00:00 +0800</pubDate></item>
+    <item><title>真彩模式4:4:4采样：设计师远程工作的色彩还原方案</title><link>https://uuyckz.com.cn/article-8.html</link><description>详解4:4:4色度采样技术如何让远程桌面实现像素级色彩还原，设计师远程修图的理想选择</description><pubDate>Sun, 01 Jun 2025 08:00:00 +0800</pubDate></item>
+    <item><title>UU远程网络代理功能详解：系统代理与自定义配置</title><link>https://uuyckz.com.cn/article-9.html</link><description>企业网络环境下如何配置UU远程的代理设置，涵盖系统代理、HTTP/SOCKS5自定义代理方案</description><pubDate>Fri, 30 May 2025 08:00:00 +0800</pubDate></item>
+    <item><title>防窥模式与隐私保护：远程办公的信息安全实践</title><link>https://uuyckz.com.cn/article-10.html</link><description>UU远程防窥模式原理与实操，远程办公场景下如何有效保护屏幕隐私与数据安全</description><pubDate>Wed, 28 May 2025 08:00:00 +0800</pubDate></item>
+  </channel>
+</rss>
