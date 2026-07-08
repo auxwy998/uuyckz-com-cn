@@ -20,7 +20,19 @@
 <script type="application/ld+json">
 [{"@context":"https://schema.org","@type":"Article","headline":"UU远程网络代理功能详解：系统代理与自定义配置","description":"企业网络环境下如何配置UU远程的代理设置","datePublished":"2025-05-30","dateModified":"2025-05-30","author":{"@type":"Organization","name":"广州网易计算机系统有限公司"},"publisher":{"@type":"Organization","name":"UU远程控制"},"mainEntityOfPage":"https://uuyckz.com.cn/article-9.html"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://uuyckz.com.cn/"},{"@type":"ListItem","position":2,"name":"文章","item":"https://uuyckz.com.cn/articles.html"},{"@type":"ListItem","position":3,"name":"网络代理功能详解"}]}]
 </script>
-<style>*{margin:0;padding:0;box-sizing:border-box}img{max-width:100%;height:auto;object-fit:cover}body{background:#0a1628;color:#e8f0f8;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.8}a{color:#00d68f;text-decoration:none;transition:color .3s}a:hover{color:#00b377}.container{max-width:820px;margin:0 auto;padding:0 1.5rem}.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,22,40,0.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,214,143,0.1)}.nav-inner{display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:0 auto;padding:0.8rem 1.5rem}.nav-logo{display:flex;align-items:center;gap:0.6rem;font-size:1.2rem;font-weight:700;color:#e8f0f8}.nav-logo svg{width:32px;height:32px}.nav-links{display:flex;gap:2rem;list-style:none}.nav-links a{color:#8899aa;font-size:0.95rem}.nav-links a:hover{color:#00d68f}.nav-btn{background:#00d68f;color:#0a1628;padding:0.5rem 1.2rem;border-radius:6px;font-weight:600;font-size:0.9rem}.nav-mobile{display:none;background:none;border:none;color:#e8f0f8;font-size:1.5rem;cursor:pointer}.breadcrumb{padding:5.5rem 0 1rem;font-size:0.85rem;color:#8899aa}.breadcrumb a{color:#8899aa}.breadcrumb a:hover{color:#00d68f}.breadcrumb span{margin:0 0.5rem}.article-header{margin-bottom:2rem}.article-header h1{font-size:1.8rem;font-weight:800;line-height:1.4;margin-bottom:0.8rem}.article-meta{font-size:0.85rem;color:#8899aa;display:flex;gap:1.5rem}.article-body h2{font-size:1.35rem;color:#e8f0f8;margin:2rem 0 1rem;padding-left:0.8rem;border-left:3px solid #00d68f}.article-body h3{font-size:1.15rem;color:#e8f0f8;margin:1.5rem 0 0.8rem}.article-body p{color:#8899aa;margin-bottom:1rem;line-height:1.9}.article-body ul,.article-body ol{color:#8899aa;padding-left:1.5rem;margin-bottom:1rem}.article-body li{margin-bottom:0.5rem;line-height:1.8}.article-body strong{color:#e8f0f8}.cta-box{background:linear-gradient(135deg,#111d33,#0d1a2e);border:1px solid rgba(0,214,143,0.15);border-radius:12px;padding:2rem;text-align:center;margin:2.5rem 0}.cta-box h3{font-size:1.2rem;margin-bottom:0.5rem;color:#00d68f}.cta-box p{color:#8899aa;font-size:0.92rem;margin-bottom:1rem}.cta-btn{display:inline-block;background:#00d68f;color:#0a1628;padding:0.7rem 2rem;border-radius:8px;font-weight:700;transition:all .3s}.cta-btn:hover{background:#00b377;color:#0a1628}.related{margin:3rem 0;padding-top:2rem;border-top:1px solid rgba(0,214,143,0.08)}.related h3{font-size:1.2rem;margin-bottom:1rem}.related-list{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.related-item{background:#111d33;border-radius:10px;padding:1.2rem;border:1px solid rgba(0,214,143,0.05);transition:all .3s}.related-item:hover{border-color:rgba(0,214,143,0.15)}.related-item h4{font-size:0.92rem;line-height:1.5;margin-bottom:0.3rem}.related-item h4 a{color:#e8f0f8}.related-item h4 a:hover{color:#00d68f}.related-item span{font-size:0.78rem;color:#8899aa}.footer{background:#0d1a2e;border-top:1px solid rgba(0,214,143,0.08);padding:2rem 0 1rem;margin-top:3rem;text-align:center}.footer p{color:#8899aa;font-size:0.82rem}@media(max-width:768px){.nav-links{display:none}.nav-mobile{display:block}.nav-links.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:rgba(10,22,40,0.98);padding:1rem 1.5rem;gap:0.8rem}.article-header h1{font-size:1.4rem}.related-list{grid-template-columns:1fr}}</style>
+<style>*{margin:0;padding:0;box-sizing:border-box}img{max-width:100%;height:auto;object-fit:cover}body{background:#0a1628;color:#e8f0f8;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.8}a{color:#00d68f;text-decoration:none;transition:color .3s}a:hover{color:#00b377}.container{max-width:820px;margin:0 auto;padding:0 1.5rem}.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,22,40,0.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,214,143,0.1)}.nav-inner{display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:0 auto;padding:0.8rem 1.5rem}.nav-logo{display:flex;align-items:center;gap:0.6rem;font-size:1.2rem;font-weight:700;color:#e8f0f8}.nav-logo svg{width:32px;height:32px}.nav-links{display:flex;gap:2rem;list-style:none}.nav-links a{color:#8899aa;font-size:0.95rem}.nav-links a:hover{color:#00d68f}.nav-btn{background:#00d68f;color:#0a1628;padding:0.5rem 1.2rem;border-radius:6px;font-weight:600;font-size:0.9rem}.nav-mobile{display:none;background:none;border:none;color:#e8f0f8;font-size:1.5rem;cursor:pointer}.breadcrumb{padding:5.5rem 0 1rem;font-size:0.85rem;color:#8899aa}.breadcrumb a{color:#8899aa}.breadcrumb a:hover{color:#00d68f}.breadcrumb span{margin:0 0.5rem}.article-header{margin-bottom:2rem}.article-header h1{font-size:1.8rem;font-weight:800;line-height:1.4;margin-bottom:0.8rem}.article-meta{font-size:0.85rem;color:#8899aa;display:flex;gap:1.5rem}.article-body h2{font-size:1.35rem;color:#e8f0f8;margin:2rem 0 1rem;padding-left:0.8rem;border-left:3px solid #00d68f}.article-body h3{font-size:1.15rem;color:#e8f0f8;margin:1.5rem 0 0.8rem}.article-body p{color:#8899aa;margin-bottom:1rem;line-height:1.9}.article-body ul,.article-body ol{color:#8899aa;padding-left:1.5rem;margin-bottom:1rem}.article-body li{margin-bottom:0.5rem;line-height:1.8}.article-body strong{color:#e8f0f8}.cta-box{background:linear-gradient(135deg,#111d33,#0d1a2e);border:1px solid rgba(0,214,143,0.15);border-radius:12px;padding:2rem;text-align:center;margin:2.5rem 0}.cta-box h3{font-size:1.2rem;margin-bottom:0.5rem;color:#00d68f}.cta-box p{color:#8899aa;font-size:0.92rem;margin-bottom:1rem}.cta-btn{display:inline-block;background:#00d68f;color:#0a1628;padding:0.7rem 2rem;border-radius:8px;font-weight:700;transition:all .3s}.cta-btn:hover{background:#00b377;color:#0a1628}.related{margin:3rem 0;padding-top:2rem;border-top:1px solid rgba(0,214,143,0.08)}.related h3{font-size:1.2rem;margin-bottom:1rem}.related-list{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.related-item{background:#111d33;border-radius:10px;padding:1.2rem;border:1px solid rgba(0,214,143,0.05);transition:all .3s}.related-item:hover{border-color:rgba(0,214,143,0.15)}.related-item h4{font-size:0.92rem;line-height:1.5;margin-bottom:0.3rem}.related-item h4 a{color:#e8f0f8}.related-item h4 a:hover{color:#00d68f}.related-item span{font-size:0.78rem;color:#8899aa}
+.footer{background:#0a1628;border-top:1px solid rgba(0,214,143,0.08);padding:2.5rem 0 1rem;margin-top:3rem}
+.footer-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:2rem;margin-bottom:2rem}
+.footer-col h4{color:#00d68f;font-size:0.95rem;font-weight:700;margin-bottom:0.8rem;letter-spacing:0.02em}
+.footer-col ul{list-style:none;padding:0}
+.footer-col ul li{margin-bottom:0.5rem}
+.footer-col ul li a{color:#8899aa;font-size:0.85rem;transition:color .3s}
+.footer-col ul li a:hover{color:#00d68f}
+.footer-bottom{border-top:1px solid rgba(0,214,143,0.08);padding-top:1rem;text-align:center}
+.footer-bottom p{color:#8899aa;font-size:0.82rem}
+@media(max-width:768px){.footer-grid{grid-template-columns:repeat(2,1fr);gap:1.5rem}}
+@media(max-width:480px){.footer-grid{grid-template-columns:1fr}}
+@media(max-width:768px){.nav-links{display:none}.nav-mobile{display:block}.nav-links.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:rgba(10,22,40,0.98);padding:1rem 1.5rem;gap:0.8rem}.article-header h1{font-size:1.4rem}.related-list{grid-template-columns:1fr}}</style>
 <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script>LA.init({id:"3QV2creOcL456efI",ck:"3QV2creOcL456efI"})</script></head>
 <body>
 <nav class="nav"><div class="nav-inner"><a href="https://uuyckz.com.cn/" class="nav-logo"><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" rx="14" fill="#0a1628"/><path d="M32 8L20 22v20l12 14 12-14V22L32 8z" fill="#00d68f" opacity="0.3"/><path d="M32 12l-9 11v16l9 11 9-11V23L32 12z" fill="#00d68f"/><path d="M26 36h4v8h-4zM34 36h4v8h-4z" fill="#0a1628"/><path d="M20 44l-6 8h6l6-8M44 44l6 8h-6l-6-8" fill="#00d68f" opacity="0.6"/></svg>UU远程控制</a><ul class="nav-links" id="navLinks"><li><a href="https://uuyckz.com.cn/">首页</a></li><li><a href="https://uuyckz.com.cn/download.html">下载</a></li><li><a href="https://uuyckz.com.cn/articles.html">文章</a></li><li><a href="https://uuyckz.com.cn/download.html" class="nav-btn">免费下载</a></li></ul><button class="nav-mobile" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="菜单">&#9776;</button></div></nav>
@@ -40,6 +52,9 @@
 </ul>
 <p>在这些环境下，UU远程需要通过代理服务器中转流量，才能正常建立远程连接。</p>
 
+
+<p><img src="/img/article-9-1.webp" alt="企业网络环境远程控制代理需求" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;"></p>
+<p>在实际企业环境中，网络限制的复杂性远超一般想象。大型企业通常采用"零信任"网络架构，所有入站和出站流量都必须经过安全网关审查。一些金融机构甚至采用了数据防泄漏（DLP）系统，会对传输的数据内容进行深度包检测（DPI），识别并拦截非授权的远程控制流量。UU远程的DTLS加密可以有效对抗DPI检测，因为加密后的流量特征与普通HTTPS流量相似，不易被识别和拦截。</p>
 <h2>系统代理：零配置自动适配</h2>
 <p>UU远程支持自动检测和读取操作系统的代理设置。当您的电脑已经配置了系统代理（如通过IE/Windows设置、macOS网络偏好设置），UU远程会自动使用这些代理配置，无需手动设置。</p>
 <h3>Windows系统代理检测</h3>
@@ -53,6 +68,9 @@
 <h3>macOS系统代理检测</h3>
 <p>macOS上，UU远程会读取系统偏好设置 - 网络中的代理配置，包括HTTP代理、HTTPS代理和SOCKS代理。</p>
 
+
+<p>系统代理自动检测的优势在于"零配置"——用户无需了解代理服务器的技术细节，IT部门只需要配置好操作系统的代理设置，所有应用程序（包括UU远程）都会自动使用。这极大简化了企业IT运维的工作量，也避免了因用户手动配置错误导致的连接问题。</p>
+<p>需要注意的是，某些企业使用的是PAC（Proxy Auto-Configuration）自动配置脚本，PAC脚本可以根据访问的URL动态选择代理服务器。UU远程完整支持PAC脚本，会根据脚本规则选择合适的代理路径。如果您的企业使用PAC脚本且UU远程无法正常连接，请检查PAC脚本中是否将UU远程的域名加入了直连（DIRECT）列表。</p>
 <h2>自定义代理：灵活配置方案</h2>
 <p>当系统代理不适用或需要指定特定代理时，UU远程支持手动配置自定义代理。在设置 - 网络中，您可以选择以下代理类型：</p>
 <h3>HTTP代理</h3>
@@ -72,6 +90,10 @@
 </ul>
 <p>配置SOCKS5代理需要提供代理地址和端口号（常见为1080），如需认证还需输入用户名和密码。</p>
 
+
+<p><img src="/img/article-9-2.webp" alt="UU远程自定义代理配置界面" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;"></p>
+<p>自定义代理还支持代理链（Proxy Chain）功能——即通过多个代理服务器级联连接。例如，在高度受限的网络环境中，可能需要先通过HTTP代理出企业内网，再通过SOCKS5代理进入VPN内网。UU远程支持配置多个代理节点，按顺序级联连接，满足复杂网络环境下的连接需求。</p>
+<p>对于代理认证，UU远程支持Basic和NTLM两种认证方式。NTLM认证常用于Windows域环境下的代理服务器，UU远程可以自动使用当前Windows登录凭据进行NTLM认证，无需手动输入用户名和密码，简化了企业用户的配置流程。</p>
 <h2>VPN环境下的代理配置</h2>
 <p>当远程控制流量需要走企业VPN时，代理配置策略如下：</p>
 <ol>
@@ -80,6 +102,8 @@
 <li><strong>反向代理</strong>：在VPN内网部署SOCKS5代理服务器，UU远程通过该代理访问内网设备</li>
 </ol>
 
+
+<p>在实际部署中，Split Tunnel VPN是最常见的企业VPN配置方式——只有访问内网资源的流量走VPN，其他流量走公网。在这种配置下，UU远程的连接流量默认走公网，如果需要通过VPN连接内网中的被控端设备，需要在VPN客户端中将UU远程的连接目标地址加入VPN路由规则。具体操作方式因VPN客户端不同而异，建议咨询企业IT部门获取VPN分流配置指南。</p>
 <h2>代理配置故障排查</h2>
 <p>如果配置代理后仍无法正常连接，请依次排查：</p>
 <ul>
@@ -90,6 +114,10 @@
 <li><strong>防火墙规则</strong>：确认代理服务器的出站规则允许UU远程的流量通过</li>
 </ul>
 
+
+<p><img src="/img/article-9-3.webp" alt="UU远程代理故障排查流程" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;"></p>
+<p>进阶排查步骤：</p>
+<ul><li><strong>抓包分析</strong>：使用Wireshark在代理服务器端抓包，确认UU远程的流量是否正常到达代理服务器</li><li><strong>检查MTU设置</strong>：VPN环境下MTU设置不当可能导致大包被丢弃，建议将MTU设置为1400或更低</li><li><strong>DNS解析</strong>：确认UU远程的域名在内网DNS中能正常解析，某些企业DNS服务器可能阻止外部域名解析</li><li><strong>证书问题</strong>：如果企业使用SSL拦截代理，UU远程的DTLS握手可能因证书不被信任而失败，需将企业CA证书导入系统信任库</li></ul>
 <h2>代理与安全</h2>
 <p>使用代理时需注意：UU远程的DTLS+AES端到端加密仍然有效，代理服务器只能转发加密后的数据流，无法解读远程会话内容。即使代理服务器被攻击者控制，您的远程操作数据依然是安全的。这也是UU远程采用端到端加密架构的重要优势——安全性不依赖于中间网络设备。</p>
 <p>UU远程的网络代理功能让企业用户无论身处何种网络环境，都能稳定地使用远程控制服务。从自动检测系统代理到手动配置SOCKS5，灵活的代理方案确保了连接的可靠性和适应性。</p>
@@ -101,5 +129,59 @@
 <div class="related-item"><h4><a href="https://uuyckz.com.cn/article-10.html">防窥模式与隐私保护：远程办公的信息安全实践</a></h4><span>安全深度</span></div>
 </div></div>
 </div>
-<footer class="footer"><div class="container"><p>&copy; 2025 广州网易计算机系统有限公司 版权所有 | UU远程控制</p></div></footer>
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">UU远程控制</div>
+      <p class="footer-brand-desc">网易资深团队出品的专业远程控制软件，真4K/144帧/超低延迟/全免费，覆盖远程办公、远程游戏、远程协助三大场景。</p>
+    </div>
+    <div>
+      <h4>产品</h4>
+      <ul>
+        <li><a href="https://uuyckz.com.cn/download.html">下载中心</a></li>
+        <li><a href="https://uuyckz.com.cn/#features">功能特性</a></li>
+        <li><a href="https://uuyckz.com.cn/articles.html">技术文章</a></li>
+        <li><a href="https://uuyckz.com.cn/#faq">常见问题</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>下载</h4>
+      <ul>
+        <li><a href="https://uuyckz.com.cn/dl/">Windows版下载</a></li>
+        <li><a href="https://uuyckz.com.cn/dl/">macOS版下载</a></li>
+        <li><a href="https://uuyckz.com.cn/dl/">iOS版下载</a></li>
+        <li><a href="https://uuyckz.com.cn/dl/">Android版下载</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>教程</h4>
+      <ul>
+        <li><a href="https://uuyckz.com.cn/article-1.html">新手入门教程</a></li>
+        <li><a href="https://uuyckz.com.cn/article-3.html">远程办公设置</a></li>
+        <li><a href="https://uuyckz.com.cn/article-5.html">游戏串流优化</a></li>
+        <li><a href="https://uuyckz.com.cn/article-6.html">远程开机配置</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>关于</h4>
+      <ul>
+        <li><a href="https://uuyckz.com.cn/#about">关于UU远程</a></li>
+        <li><a href="https://uuyckz.com.cn/#info">更新日志</a></li>
+        <li><a href="https://uuyckz.com.cn/#security">安全说明</a></li>
+        <li><a href="https://uuyckz.com.cn/articles.html">技术支持</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>法律</h4>
+      <ul>
+        <li><a href="https://uuyckz.com.cn/privacy-policy.html">隐私政策</a></li>
+        <li><a href="https://uuyckz.com.cn/terms-of-service.html">用户协议</a></li>
+        <li><a href="https://uuyckz.com.cn/cookie-policy.html">Cookie政策</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 广州网易计算机系统有限公司 版权所有 | UU远程控制 V4.31.0</p>
+  </div>
+</footer>
 </body></html>
